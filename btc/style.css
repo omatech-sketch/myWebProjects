@@ -1,0 +1,158 @@
+z*{
+	margin: 0px;
+}
+.body{
+	background-image: url('img/site.png');
+	width: 100%;
+	height: 100vh;
+	background-size: cover;
+	background-repeat: no-repeat;	
+}
+.strap{
+	padding: 4px;
+	width: 100%;
+	background-color: #000;
+	display: inline-block;
+}
+.clearfix::after{
+	clear: both;
+	content: '';
+	display: table;
+
+}
+
+.left-strap{
+	width: 35%;
+	float: left;
+	margin-left: 10%;
+
+}
+.right-strap{
+	width: 35%;
+	float: left;
+	margin-left: 19%;
+
+}
+.left-strap a{
+	padding: 5px;
+	color: white;
+}
+.right-strap a{
+	text-decoration:none;
+	padding: 10px;
+	color: white;	
+}
+.strap i:hover{
+	color: red;
+}
+.logo h2 span{
+ color: #1eff46;
+ font-family:Cooper;
+
+}
+.logo h2{
+	color:white;
+	font-family: cooper;
+
+}
+.menu{
+	padding: 1px;
+	width: 100%;
+	display: inline-block;
+	padding-top: 0px;
+}
+.logo{
+	width: 35%;
+	float: left;
+	margin-left: 10%;
+	margin-top: 0px;
+
+}
+.right-menu{
+	width: 35%;
+	float: left;
+	margin-left: 20%;
+
+}
+.right-menu a{
+	text-transform: capitalize;
+	text-decoration: none;
+	font-size: 12px;
+	color: white;
+	padding: 6px;
+	margin-top: 0px;
+}
+
+
+ .col{
+     z-index: 3;
+     transform: translate(800px, 200px);
+     position: right;
+     float: right;
+     width: 100%;
+     margin: 80%
+     background-color:green;
+  }
+   .col-2{
+     position: right;
+     float: right;
+     width: 100%;
+     margin: 80%
+     background-color:green;
+}
+   .col h1{
+          color: #fff;
+          font-size: 40px;
+      }
+
+      .col  strong{
+          color: #1eff46;
+          font-family:scriptina; 
+          }
+
+
+      .col p{
+          font-family: Arial, Helvetica, sans-serif;
+          font-size: 20px;
+          color: #fff;
+          }
+          .col-2 button{
+          	background: aqua;
+          	padding: 0px 5px 5px 0px;
+          	border-radius: 1px;
+          	outline: none;
+          }
+
+           .col-2 a{
+          font-size: 14px;
+          text-decoration: none;
+          color: #000;
+          }
+     .wallet{
+     	position: absolute;
+     	right: 10%;
+     	bottom:50px;
+     	display: flex;
+     	align-items: center;
+     }     
+     .coin{
+     	display: flex;
+     	align-items: center;
+     	font-size: 14px;
+     	margin: 0 15px;
+     	color: #ff960b;
+     	border: 1px solid #fff;
+     	padding: 20px 30px;
+     	border-radius: 8px;
+
+     }
+     .coin img{
+     	width: 40px;
+     	margin-right: 2px;
+     }
+    .coin h3{
+    	color: #fff;
+    	margin-bottom: 5px;
+    } 
+
+          
